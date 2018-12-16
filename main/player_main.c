@@ -130,8 +130,8 @@ void app_main() {
   ESP_ERROR_CHECK( esp_wifi_set_auto_connect(1) );
   wifi_config_t sta_config = {
       .sta = {
-          .ssid = "Molly_2.4G",
-          .password = "bakaFANCY520",
+          .ssid = "********",
+          .password = "*********",
           .bssid_set = false
       }
   };
